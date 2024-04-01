@@ -3,6 +3,11 @@ import React from "react";
 
 import styles from "./about.module.css";
 
+export const metadata = {
+  title: "About Page",
+  description: "About description",
+};
+
 const AboutPage = () => {
   return (
     <div className={styles.container}>
